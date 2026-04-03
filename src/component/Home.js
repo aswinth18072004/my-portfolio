@@ -7,7 +7,7 @@ function Home() {
 
       
 
-      <nav className="header">
+     {/*  <nav className="header">
         <h2 className="logo">Aswinth</h2>
 
         <ul className="nav">
@@ -17,7 +17,7 @@ function Home() {
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
-
+ */}
      
       <div className="home-details">
         

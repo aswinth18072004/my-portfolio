@@ -20,9 +20,12 @@ import About from "./component/about";
 import Project from "./component/project";
 import Contact from "./component/contact";
 import Skills from "./component/skills";
+import Navbar from "./component/navbar";
 
 function App() {
   return (
+    <>
+    <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -30,6 +33,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/skills" element={<Skills />} />
     </Routes>
+    </>
   );
 }
 
